@@ -1,0 +1,132 @@
+body {
+  background-color: #dad7cd;
+  font-family: "Nunito Sans", sans-serif;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0.5em;
+}
+h3 {
+  text-align: center;
+  margin: 1em;
+}
+footer {
+  position: static;
+  bottom: 0;
+  background-color: #a3b18a;
+  width: 100%;
+  height: 4em;
+  text-align: center;
+  padding: 20px;
+}
+#content {
+  margin: 30px;
+  padding: 30px;
+}
+#logo {
+  max-width: 45px;
+}
+.navbar {
+  background-color: #a3b18a;
+  font-size: larger;
+}
+#inicial {
+  margin-top: 40px;
+  margin-bottom: 6em;
+}
+#foto img {
+  background-color: white;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  max-width: 24em;
+  align-self: center;
+  -webkit-box-shadow: 13px 14px 16px -6px rgba(79, 81, 101, 0.57);
+  -moz-box-shadow: 13px 14px 16px -6px rgba(79, 81, 101, 0.57);
+  box-shadow: 13px 14px 16px -6px rgba(79, 81, 101, 0.57);
+}
+#textoUno {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 45px;
+}
+#textoUno p {
+  text-align: justify;
+  padding: 10px;
+}
+#textoUno h6 {
+  background-color: #c17767;
+  border-radius: 30px;
+}
+#resume{
+  margin: 1em;
+  text-align: justify;
+}
+#products img {
+  background-color: #d6a59a;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  max-width: 24em;
+  align-self: center;
+  -webkit-box-shadow: 13px 14px 16px -6px rgba(79, 81, 101, 0.57);
+  -moz-box-shadow: 13px 14px 16px -6px rgba(79, 81, 101, 0.57);
+  box-shadow: 13px 14px 16px -6px rgba(79, 81, 101, 0.57);
+}
+#products1 img {
+  background-color: #d6a59a;
+  align-items: center;
+  align-content: center;
+  width: max-content;
+  padding: 20px;
+  max-width: 24em;
+  align-self: center;
+  -webkit-box-shadow: 13px 14px 16px -6px rgba(79, 81, 101, 0.57);
+  -moz-box-shadow: 13px 14px 16px -6px rgba(79, 81, 101, 0.57);
+  box-shadow: 13px 14px 16px -6px rgba(79, 81, 101, 0.57);
+}
+#redes{
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+#redes a img {
+  max-width: 8em;
+}
+.form {
+  align-items: center;
+  align-content: center;
+  width: 340px;
+  height: 440px;
+  background: #f8f7f6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  position: relative;
+}
+.form input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+#skills li{
+  list-style:none ;
+  font-size: larger;
+  background-color: #d6a59a;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.4em;
+}

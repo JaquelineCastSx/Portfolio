@@ -1,0 +1,40 @@
+{% extends 'layout.html' %} 
+
+{% block title %}
+Plantilla
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+
+<h1>My Skills</h1>
+<div class="container-md" id="inicial">
+  <div class="row">
+    <!--Ciclo for con la lista de habilidades-->
+    {% for skill in skills %}
+    <div class="col-md" id="skills">
+      <ul>
+            <li>{{ skill }}</li>
+    </ul>
+    </div>
+    {% endfor %}
+  </div>
+<div class="row">
+  <div class="col-md">
+    <img src="{{url_for('static', filename='images/css.png')}}" alt="">
+  </div>
+  <div class="col-md">
+    <img src="{{url_for('static', filename='images/ilustrador.png')}}" alt="">
+  </div>
+  <div class="col-md">
+    <img src="{{url_for('static', filename='images/js.png')}}" alt="">
+  </div>
+  <div class="col-md">
+    <img src="{{url_for('static', filename='images/figma.png')}}" alt="">
+  </div>
+  <div class="col-md">
+    <img src="{{url_for('static', filename='images/angular.png')}}" alt="">
+  </div>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Projects
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<div class="container-md">
+    <div class="row">
+        <div class="col-md">
+            <h1>Projects</h1>
+        </div>
+    </div>
+    <div class="row" id="">
+        
+        <div class="col-md" id="products">
+            <img src="{{url_for('static', filename='/images/cakefully.png')}}" alt="">
+        </div>
+        <div class="col-md" id="products1">
+            <img src="{{url_for('static', filename='/images/cyc.png')}}" alt="">
+        </div>
+        <div class="col-md" id="products">
+            <img src="{{url_for('static', filename='/images/nutre-t.png')}}" alt="">
+        </div>
+    </div>
+    <div class="row" id="">
+        
+        <div class="col-md" id="textoUno">
+            <h3> Cakefully </h3>
+            <h6> <strong> UI/UX Design </strong> </h6>
+            <p> A powerful design for a business of homemade bakery,
+                created by using Figma and Adobe Ilustrator for the logo.</p>
+        </div>
+        <div class="col-md" id="textoUno">
+            <h3> C & C Services </h3>
+            <h6> <strong> Website | Front End project  </strong> </h6>
+            <p> A dedicated technology hub for C & C Services. 
+                A cutting-edge consulting and software solutions 
+                provider, committed to revolutionizing the client 
+                business through technology.</p>
+        </div>
+        <div class="col-md" id="textoUno">
+            <h3> "Salud Digna" nutritional website </h3>
+            <h6> <strong> UI/UX Design </strong> </h6>
+            <p>A well-thinked design for a national healthcare company, created for an international programming contest by using Figma.</p>
+        </div>
+    </div>
+    
+</div>
+
+    {% endblock %}

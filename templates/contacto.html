@@ -1,0 +1,59 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Contacto
+<!--Context proceso del titulo-->
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+
+    <div class="container-md">
+        <div class="row">
+            <div class="col-md">
+                <h1>Reach me!</h1><br/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" id="redes">
+                <h3>Media</h3>
+                <a href="https://www.linkedin.com/in/jaqueline-santoyo-7a4166244/" target="_blank" rel="noreferrer noopener">
+                    <img src="{{url_for('static', filename='/images/linkedin.png')}}" alt="">
+                </a>
+                <div class="row">
+                    <div class="col-md" id="redes">
+                        <a href="mailto:castillojs374@gmail.com" >
+                            <img src="{{url_for('static', filename='/images/gmail.png')}}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md" id="redes">
+                        <a href="https://twitter.com/npmJaquie" target="_blank" rel="noreferrer noopener">
+                            <img src="{{url_for('static', filename='/images/twitter.png')}}" alt="">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-6 form">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="" placeholder="Full Name">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="" placeholder="Email">
+                    <br>
+                    <label for="phone">Phone number:</label>
+                    <input type="number" name="number" id="" placeholder="Phone number with country code">
+                    <br>
+                    <label for="linkedin">LinkedIn url:</label>
+                    <input type="url" name="linkedin" id="" placeholder="LinkedIn link">
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

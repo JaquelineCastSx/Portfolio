@@ -1,0 +1,53 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Inicio
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<div class="container-md" id="inicial">
+    <div class="row">
+        <div class="col-md" id="foto">
+            <img src="{{url_for('static', filename = '/images/foto.jpeg')}}" alt="">
+        </div>
+        <div class="col-md" id="textoUno">
+            <h1>Jaqueline Castillo</h1>
+            <br>
+            <h6><strong>UI/UX designer + FrontEnd developer</strong></h6>
+            <br>
+            <p>
+                Hi! Welcome to my professional portfolio.
+                Enthusiastic and motivated fourth-semester 
+                Software Engineering student with a passion for 
+                web development and design. Proficient in Adobe 
+                Illustrator and Photoshop, skilled in web 
+                technologies, and a dedicated team player with a 
+                strong aptitude for learning. Excited to contribute
+                 technical expertise and creativity to dynamic projects.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md">
+            <h3>"If you can dream it, you can do it." - Walt Disney</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md" id="resume">
+            <h3>My achievements</h3>
+            <p>
+                <ul>
+                    <li>Recognized for outstanding teamwork and communication skills during group projects, contributing to successful project outcomes.</li>
+                    <li>Demonstrated strong problem-solving abilities by achieving a top position in a marathon programming challenge.</li>
+                    <li>Displayed a rapid learning curve, effectively mastering new tools and technologies to meet project requirements.</li>
+                </ul>
+            </p>
+        </div>
+        <div class="col-md" id="resume">
+            <h3>What's my plan?</h3>
+            <p>Eager to secure a trainee position within a dynamic software engineering team to further develop technical skills and gain hands-on experience. Committed to completing my degree and pursuing opportunities that enable me to contribute to innovative projects and solutions in the field of web development and design.</p>
+        </div>
+        
+    </div>
+</div>
+{% endblock %}
